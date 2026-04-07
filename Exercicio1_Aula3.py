@@ -1,7 +1,7 @@
 """Exemplo 2.1: Criação de um Gerador de IDs Sequenciais com Closure
 Problema: Desenvolver uma função que gere IDs sequenciais, mas que permita reiniciar a
 contagem ou definir um ponto de partida diferente a cada vez que é chamada, sem usar
-variáveis globais."""
+variáveis globais.  DEQUE"""
 
 def criar_gerador_id(start_id=1):
     current_id = start_id
